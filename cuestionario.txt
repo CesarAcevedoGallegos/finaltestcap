@@ -1,13 +1,23 @@
 Cuales son las 3 fases del repositorio local git?
+Cesar: Untracked, staged, commited
 
 Que diferencia existe entre un objecto tracked y un objeto untracked?
+Cesar::
+Los objetos untracked no son validados para control de validaciones y no podrian ser commiteados.
+Los objetos tracked son aquellos a los que se les genera el log de cambios y pasan a estado STAGE
 
 Con cual subcomando del comando git podriamos renombrar un archivo o carpeta?
+Cesar:: git mv oldfilename newfilename
 
 Cual es la sintaxis para genarar por medio de git un alias para una accion en especifico?
+Cesar:: git config --global alias.__ COMMAND
+odnde __ es el alias y COMMAND el comando al que se le genrara el alias
 
 Define con tus propias palabras en que consiste la fase llamada "staging area"?
+Cesar:: Es la fase en la que se lleva el tracking de los cambios locales de los archivos
 
 Con cual comando podemos subir nuestros cambios a nuestro repositorio local?
+Cesar:: git push
 
 Cual es la recomendacion que se tiene que realizar cada vez que necesitamos subir nuestros cambios al repo remoto?
+Cesar:: hacer primero pull
